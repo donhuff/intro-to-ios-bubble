@@ -14,6 +14,7 @@
 		F6E9063D1A011F9A00E3CDD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6E9063C1A011F9A00E3CDD5 /* Images.xcassets */; };
 		F6E906401A011F9A00E3CDD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6E9063E1A011F9A00E3CDD5 /* LaunchScreen.xib */; };
 		F6E9064C1A011F9A00E3CDD5 /* BubbleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E9064B1A011F9A00E3CDD5 /* BubbleTests.m */; };
+		F6E906571A01220F00E3CDD5 /* BBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E906561A01220F00E3CDD5 /* BBubbleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F6E906451A011F9A00E3CDD5 /* BubbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E9064A1A011F9A00E3CDD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6E9064B1A011F9A00E3CDD5 /* BubbleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleTests.m; sourceTree = "<group>"; };
+		F6E906551A01220F00E3CDD5 /* BBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBubbleView.h; sourceTree = "<group>"; };
+		F6E906561A01220F00E3CDD5 /* BBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBubbleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +86,14 @@
 			children = (
 				F6E906331A011F9A00E3CDD5 /* AppDelegate.h */,
 				F6E906341A011F9A00E3CDD5 /* AppDelegate.m */,
-				F6E906361A011F9A00E3CDD5 /* ViewController.h */,
-				F6E906371A011F9A00E3CDD5 /* ViewController.m */,
-				F6E906391A011F9A00E3CDD5 /* Main.storyboard */,
+				F6E906551A01220F00E3CDD5 /* BBubbleView.h */,
+				F6E906561A01220F00E3CDD5 /* BBubbleView.m */,
 				F6E9063C1A011F9A00E3CDD5 /* Images.xcassets */,
 				F6E9063E1A011F9A00E3CDD5 /* LaunchScreen.xib */,
+				F6E906391A011F9A00E3CDD5 /* Main.storyboard */,
 				F6E9062F1A011F9A00E3CDD5 /* Supporting Files */,
+				F6E906361A011F9A00E3CDD5 /* ViewController.h */,
+				F6E906371A011F9A00E3CDD5 /* ViewController.m */,
 			);
 			path = Bubble;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				F6E906381A011F9A00E3CDD5 /* ViewController.m in Sources */,
 				F6E906351A011F9A00E3CDD5 /* AppDelegate.m in Sources */,
 				F6E906321A011F9A00E3CDD5 /* main.m in Sources */,
+				F6E906571A01220F00E3CDD5 /* BBubbleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -332,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -412,6 +418,7 @@
 				F6E906511A011F9A00E3CDD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6E906521A011F9A00E3CDD5 /* Build configuration list for PBXNativeTarget "BubbleTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				F6E906541A011F9A00E3CDD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
